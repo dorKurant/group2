@@ -1,0 +1,51 @@
+body{
+    background: #36B3B8;
+    color: white;
+    font-family: Terbuchet, sans-serif;
+    font-size: 20px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#about-us{
+    font-size: 60px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+#input-text{
+    font-size: 30px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    line-height: 1.6em;
+    border: 9px solid #A7F0BA;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.heart{
+    width: 100%;
+    display: flex;
+    background: none;
+    border: none;
+    animation: growShrink 1s ease-in-out forwards;
+}
+
+@keyframes growShrink {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.2);}
+    100%{transform: scale(1);}
+}
+
+#house{
+    width: 80px;
+    background: none;
+    border: none;
+}

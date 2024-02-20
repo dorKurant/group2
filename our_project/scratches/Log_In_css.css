@@ -1,0 +1,112 @@
+body{
+    background: #36B3B8;
+    color: white;
+    font-family: Terbuchet, sans-serif;
+    font-size: 150px;
+}
+
+.login-container{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    font-size: 200px;
+    justify-self: center;
+    align-self: center;
+    grid-column-start: 5;
+    grid-column-end:7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    grid-column-start:2;
+    grid-column-end:10;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    white-space: nowrap; /*without space between the words*/
+}
+
+main input {
+    font-size: 80px; /* Adjust the font size as needed */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#sign_up{
+    font-size: 90px;
+    justify-self: center;
+    grid-column-start: 5;
+    grid-column-end:7;
+    grid-row-start:8;
+    grid-row-end: 8;
+
+}
+#Submit{
+    font-size: 70px;
+    justify-self: center;
+    grid-column-start: 5;
+    grid-column-end:7;
+    grid-row-start:7;
+    grid-row-end: 7;
+}
+
+
+#Submit:hover{
+    background-color: black;
+    color: white;
+}
+
+
+aside{
+    align-self: start;
+    width: 400px;
+    grid-column-start: 1;
+    grid-column-end:1;
+    grid-row-start:1;
+    grid-row-end:1;
+}
+
+#house{
+    width: 100%;
+}
+
+
+#imgButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.error{
+    font-size: 100px;
+    color: black;
+    border: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    /*background-color: black;*/
+    font-weight: bold;
+    align-self: center;
+    align-content: center;
+    justify-self: center;
+    grid-column-start: 2;
+    grid-column-end:10;
+    grid-row-start:2;
+    grid-row-end:2;
+
+}
+@media (max-width: 3000px) {
+    footer{
+        display: none;
+    }
+}
